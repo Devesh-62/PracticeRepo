@@ -1,9 +1,8 @@
 # Assuming your DataFrame is named df and has columns 'shipment_id' and 'weight'
 
-# Calculate the total weight for each shipment
-df['total_weight'] = df.groupby('shipment_id')['weight'].transform('sum')
+# Calculate the total weight for each shipmentof my cargit
+df['total_weight'] = df.groupby('shipment_id')['weight'].transform('sum')..
 
-# Display the DataFrame with the new column
 print(df)
 Explanation:
 
